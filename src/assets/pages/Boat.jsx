@@ -25,9 +25,9 @@ const Boat = () => {
   return (
     
     <div>
-        <img src={Boatbg} alt='Boat' className='w-full mx-auto rounded shadow-lg'/>
+        <img src={Boatbg} alt='Boat' className='w-full mx-auto shadow-lg'/>
 
-        <div className="bg-gray-50 py-10 px-6 ">
+        <div className="bg-orange-250 py-10 px-6 ">
       <div className="grid md:grid-cols-2 gap-4 max-w-3xl max-h-4xl mx-auto">
         {/* Left Section */}
         <div className="bg-orange-950 text-white flex items-center justify-center p-6">
@@ -85,28 +85,28 @@ const Boat = () => {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-xl font-bold text-center mb-6">Brand Analysis</h2>
           <img
-            src="https://img-cdn.thepublive.com/filters:format(webp)/entrackr/media/post_attachments/wp-content/uploads/2021/02/BoAt-graph-1.jpg" // Replace with your actual graph image
+            src="src\assets\Images\Total Usage Analysis\Boat\Usage Analysis\Overall_sentiment(Boat)[Usage Analysis].png" // Replace with your actual graph image
             alt="Income Graph"
             className="w-full rounded-lg shadow-md"
           />
-          <p className="text-center text-gray-700 mt-4">Income Graph</p>
+          
         </div>
       </div>
 
       {/* Sales Division Section */}
       <div className="bg-red-100 py-10 mt-10">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-xl font-bold text-center mb-6">Sales Division</h2>
+          <h2 className="text-xl font-bold text-center mb-6"></h2>
           <img
-            src="https://img-cdn.thepublive.com/filters:format(webp)/entrackr/media/post_attachments/wp-content/uploads/2021/02/BoAt-Sales-1.jpg" // Replace with your actual pie chart image
+            src="src\assets\Images\Total Usage Analysis\Boat\Usage Analysis\sentiment_by_Occupation(Boat)[Usage Analysis].png" // Replace with your actual pie chart image
             alt="Sales Division"
             className="w-full rounded-lg shadow-md"
           />
-          <p className="text-center text-gray-700 mt-4">Breakup of Sales</p>
+          
         </div>
       </div>
     </div>
   )
 }
 
-export default Boat
+export default Boat 

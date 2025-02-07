@@ -30,21 +30,21 @@ const Footer = () => {
             <h3 className="text-white text-lg font-semibold mb-4">Stay connected</h3>
             <div className="flex space-x-4">
               <Link
-                to="/instagram"
+                to="https://www.linkedin.com/in/amogh-more-2a1066298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="text-gray-400 hover:text-white text-2xl transition"
                 aria-label="Instagram"
               >
                 <FaInstagram />
               </Link>
               <Link
-                to="/whatsapp"
+                to="https://www.linkedin.com/in/nitika-nagdevani-985230259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="text-gray-400 hover:text-white text-2xl transition"
                 aria-label="WhatsApp"
               >
                 <FaWhatsapp />
               </Link>
               <Link
-                to="/linkedin"
+                to="https://www.linkedin.com/in/samruddhi-jatkar-200a242a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="text-gray-400 hover:text-white text-2xl transition"
                 aria-label="LinkedIn"
               >
@@ -55,20 +55,18 @@ const Footer = () => {
 
           {/* Company Details Section */}
           <div className="text-sm text-gray-500 mt-6 md:mt-0">
-            <p>WGSN Limited, Company number 04585491.</p>
-            <p>WGSN, 79 York Street, London, W1H 1DP</p>
+            <p>Vivekanand Education Society's Institute of Technology</p>
+          
             <p>
-              WGSN LLC ID 04-3851246, Registered office 251 Little Falls Drive,
-              Wilmington, Delaware 19808, United States
+            Hashu Advani Memorial Complex, Collector's Colony
+            Chembur, Mumbai, Maharashtra 400074,a northeastern suburb of Mumbai, and stretches over a few acres of land
             </p>
             <p>
-              WGSN Ltda, CNPJ (Taxpayer’s Register): 15.536.968/0001-04, Address:
-              Rua Tabapuã, 841, Conjunto 15, 1º Andar, São Paulo, Brazil
+            VESIT B.Tech ranking by NIRF is 251 out of 300 colleges in India in 2021.
+            VESIT Overall ranking by National Institutional Ranking Framework Innovation is 26 out of 50 colleges in India in 2020.
             </p>
             <p>
-              CTIC WGSN China Limited (CTIC WGSN 中国有限公司), Registered address:
-              Room 502, 5/F, Building 4, No. 300, Dingyuan Road, Songjiang
-              District, Shanghai, China
+            The Vivekanand Education Society (VES) is a Mumbai-based non-profit educational society founded in 1962 that operates 26 educational institutions (tertiary and secondary) located in the area surrounding Chembur, a suburb situated in central Mumbai, India.
             </p>
           </div>
         </div>
